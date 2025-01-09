@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Etiqueta del niño -->
+    <TextView
+        android:id="@+id/child_name_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actividades de:"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- EditText para ingresar el ID del niño -->
+    <EditText
+        android:id="@+id/child_id_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce el ID del niño"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para cargar actividades -->
+    <Button
+        android:id="@+id/load_activities_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cargar Actividades"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para añadir actividad -->
+    <Button
+        android:id="@+id/add_activity_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir Actividad"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView para mostrar las actividades -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activity_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SeguimientoInfantilApp</string>
+
+    <string-array name="roles_array">
+        <item>Padre</item>
+        <item>Profesor</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para el nombre del niño -->
+    <EditText
+        android:id="@+id/child_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Niño" />
+
+    <!-- Campo para la edad del niño -->
+    <EditText
+        android:id="@+id/child_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad del Niño"
+        android:inputType="number" />
+
+    <!-- Campo para la fecha de nacimiento del niño -->
+    <EditText
+        android:id="@+id/child_birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Nacimiento (YYYY-MM-DD)"
+        android:inputType="date" />
+
+    <!-- Botón para guardar el niño -->
+    <Button
+        android:id="@+id/save_child_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Niño"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
